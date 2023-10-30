@@ -1,7 +1,9 @@
 import calendar
 
 year = int(input("Enter a year: "))
-month_number = int(input("Enter a month (1-12): "))
 
-cal = calendar.month(year, month_number)
+# Create a calendar object for the year 2023.
+cal = calendar.calendar(year)
+
+# Print the calendar to the console.
 print(cal)
